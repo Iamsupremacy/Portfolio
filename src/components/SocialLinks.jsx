@@ -40,7 +40,7 @@ const SocialLinks = () => {
         </>
       ),
 
-      href: "/public/Jimit Resume.pdf",
+      href: "/Jimit Resume.pdf",
       style: "rounded-br-md",
       download: true,
     }
