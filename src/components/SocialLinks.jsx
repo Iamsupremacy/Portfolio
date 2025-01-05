@@ -39,16 +39,12 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-<<<<<<< HEAD
+
       href: "../assets/Jimit Resume.pdf",
       style: "rounded-br-md",
-      download: "Jimit Resume.pdf",
-=======
-      href: "../assets/Jimit Shah.pdf",
-      style: "rounded-br-md",
-      download: "Jimit Resume",
->>>>>>> e4e09498f1d1a5d87616fbb8b6dc9685ae3e207a
+      download: true,
     },
+    
   ];
   return (
     <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
