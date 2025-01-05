@@ -40,11 +40,12 @@ const SocialLinks = () => {
         </>
       ),
 
-      href: "../assets/Jimit Resume.pdf",
+      href: "/Jimit Resume.pdf",
       style: "rounded-br-md",
       download: true,
+      target: _blank
     },
-    
+
   ];
   return (
     <div className=" hidden lg:flex flex-col top-[35%] left-0 fixed">
