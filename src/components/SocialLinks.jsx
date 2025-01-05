@@ -41,7 +41,7 @@ const SocialLinks = () => {
       ),
       href: "../assets/Jimit Resume.pdf",
       style: "rounded-br-md",
-      download: "Jimit_Shah_Resume.pdf",
+      download: "Jimit Resume.pdf",
     },
   ];
   return (
