@@ -1,57 +1,64 @@
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import reactJs from "../assets/react.png";
-// import nextjs from "../assets/nextjs.png";
-import tailwind from "../assets/tailwind.png";
+import networking from "../assets/networking.png";
+import vulnerability from "../assets/vulnerability-scanning.png";
+import python from "../assets/python.png";
+import linux from "../assets/linux.png";
+import cybersecurity from "../assets/cybersecurity.png";
+import malware from "../assets/malware.png";
+import socialenginering from "../assets/social-engineering.png";
 import github from "../assets/github.png";
-// import graphql from "../assets/graphql.png";
-import node from "../assets/node.png";
+
 const Skills = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      src: css,
-      title: "CSS",
+      src: networking,
+      title: "Networking",
       style: "shadow-blue-500",
     },
     {
+      id: 2,
+      src: vulnerability,
+      title: "Vulnerability Scanning",
+      style: "shadow-red-500",
+    },
+    {
       id: 3,
-      src: javascript,
-      title: "JavaScript",
+      src: python,
+      title: "Python",
       style: "shadow-yellow-500",
     },
     {
       id: 4,
-      src: reactJs,
-      title: "ReactJs",
-      style: "shadow-blue-600",
+      src: linux,
+      title: "Linux",
+      style: "shadow-orange-600",
     },
     {
       id: 5,
-      src: node,
-      title: "NodeJs",
-      style: "shadow-green-400",
+      src: cybersecurity,
+      title: "Cyber Security",
+      style: "shadow-sky-400",
     },
 
     {
-      id: 8,
-      src: tailwind,
-      title: "TailWind",
-      style: "shadow-sky-400",
+      id: 6,
+      src: malware,
+      title: "Malware",
+      style: "shadow-red-500",
     },
     {
-      id: 9,
-      src: github,
-      title: "GitHub",
+      id: 7,
+      src: socialenginering,
+      title: "Social Engineeeing",
       style: "shadow-gray-400",
     },
+    {
+      id: 8,
+      src: github,
+      title: "Git Hub",
+      style: "shadow-gray-600",
+    },
+    
   ];
   return (
     <div
@@ -63,7 +70,7 @@ const Skills = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Skills
           </p>
-          <p className="py-6">These are the technologies I have worked with.</p>
+          <p className="py-6">These are some skills and technologies I have worked with.</p>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 text-center py-8 px-12 sm:px-0 gap-8 w-full">
           {techs.map(({ id, src, style, title }) => (

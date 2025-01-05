@@ -8,10 +8,10 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          Linkedin <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/jigarkumarraval/",
+      href: "https://www.linkedin.com/in/jimit-shah-74b068257",
       style: "rounded-tr-md",
     },
     {
@@ -21,7 +21,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/JigarRaval",
+      href: "https://github.com/Iamsupremacy",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:j1991j9191@gmail.com",
+      href: "mailto:jimitshah205@gmail.com",
     },
     {
       id: 4,
@@ -39,9 +39,9 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "../assets/Jigar_Resume.pdf",
+      href: "../assets/JIMIT SHAH RESUME.pdf",
       style: "rounded-br-md",
-      download: "Jigar_Resume",
+      download: "Jimit_Shah_Resume",
     },
   ];
   return (

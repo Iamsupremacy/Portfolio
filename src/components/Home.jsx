@@ -1,11 +1,11 @@
 import { Link } from "react-scroll";
-import HeroImage from "../assets/profile_5.jpeg";
+import Profile from "../assets/profile.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useTypewriter } from "react-simple-typewriter";
 import "../App.css";
 const Home = () => {
   const [typeEffect] = useTypewriter({
-    words: ["Jigarkumar Raval", "Fullstack Devloper"],
+    words: ["Jimit Shah", "Ethical Hacker"],
     loop: {},
     typeSpeed: 100,
     deleteSpeed: 100,
@@ -21,9 +21,9 @@ const Home = () => {
             Hi I am <span className="text-sky-200">{typeEffect}</span>
           </h2>
           <p className="text-gray-500 py-4  max-w-md">
-            Hey! I’m Jigar, a full-stack developer with a passion for crafting
-            seamless digital Skillss. From front-end magic to back-end wizardry,
-            I turn ideas into elegant code. Let’s build something awesome
+            Hey! I’m Jimit, an Ethical hacker, passionate and results-driven ethical hacker with a strong 
+            foundation in cybersecurity and a commitment to safeguarding systems and data from malicious threats. 
+            Let’s create something awesome
             together!
           </p>
 
@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         <div className="pt-12 md:pt-0 rounded-full">
           <img
-            src={HeroImage}
+            src={Profile}
             alt="my profile"
             className="profile rounded-full  border-gray-100 border-l-8 border-b-8  mx-auto w-80 md:full "
           />

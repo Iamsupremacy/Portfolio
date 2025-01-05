@@ -1,10 +1,10 @@
-import Paperss from "../assets/portfolio/Paperss.png";
+import EthicalHackingProjects from "../assets/portfolio/Ethical-Hacking-Projects.png";
 
 const Projects = () => {
   const list = [
     {
       id: 1,
-      src: Paperss,
+      src: EthicalHackingProjects,
     },
   ];
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
             Projects
           </p>
 
-          <p className="py-6">check my work here...</p>
+          <p className="py-6">Check my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 px-12 sm:px-0 gap-8">
           {list.map(({ id, src }) => (
@@ -31,17 +31,13 @@ const Projects = () => {
               <div className="flex justify-center items-center">
                 <button className="w-1/2 m-4 px-6 py3 duration-300 hover:scale-110">
                   <a
-                    href="https://github.com/JigarRaval/Paperss"
+                    href="https://github.com/Iamsupremacy"
                     target="_blank"
                   >
-                    Code
+                    Git Hub
                   </a>
                 </button>
-                <button className="w-1/2 m-4 px-6 py3 duration-300 hover:scale-110">
-                  <a href="https://paperss.netlify.app" target="_blank">
-                    Demo
-                  </a>
-                </button>
+              
               </div>
             </div>
           ))}
